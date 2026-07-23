@@ -2,7 +2,7 @@
 import subprocess
 from pathlib import Path
 
-def yt_to_ogg(url, output_path="/home/coldaslife/Games"):
+def yt_to_ogg(url, output_path="PATH"):
     if not url.startswith(("http://", "https://")):
         url = "https://" + url
 
