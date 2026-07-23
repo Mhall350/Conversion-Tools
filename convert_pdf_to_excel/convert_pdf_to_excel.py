@@ -3,8 +3,8 @@ import tabula
 import pandas as pd
 
 # ==== CONFIG =====
-input_folder = r"/home/coldaslife/Desktop/PDFs"
-output_folder = r"/home/coldaslife/Desktop/Excel"
+input_folder = r"/PATH"
+output_folder = r"/PATH"
 
 os.makedirs(output_folder, exist_ok=True)
 
